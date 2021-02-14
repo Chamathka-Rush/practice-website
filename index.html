@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Go Doh-nuts</title>
+
+    <!--CSS 3-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="shortcut icon" type="image/png" href="/images/7.png" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="/images/9.png"
+          alt="girl"
+          style="width: 350px; height: 200px; float: left"
+        />
+        <h1 id="title">Go Doh-nuts!!!</h1>
+      </header>
+
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+          <img src="/images/7.png" alt="logo" style="width: 65px" />
+        </a>
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="order.html">Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+        </ul>
+      </nav>
+
+      <main>
+        <!-- <img id="home-img" src="/images/3.jpg" alt="food platter" /> -->
+        <h1>let's go doh-nuts</h1>
+        <p>
+          <i>
+            <a id="reserve" href="#">Doughnuts</a> are usually deep fried from a
+            flour dough, and typically either ring-shaped or a number of shapes
+            without a hole, and often filled, but can also be ball-shaped. Other
+            types of batters can also be used, and various toppings and
+            flavorings are used for different types, such as sugar, chocolate,
+            or maple glazing.
+          </i>
+        </p>
+        <button class="btn btn-warning btn-lg m-3">Make your order</button>
+      </main>
+
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+          <li data-target="#demo" data-slide-to="4"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="img-fluid" src="/images/3.jpg" alt="Los Angeles" />
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="/images/7.jpg" alt="Chicago" />
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="/images/12.jpg" alt="New York" />
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="/images/13.jpg" alt="New York" />
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="/images/14.jpg" alt="New York" />
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span
+            class="carousel-control-prev-icon"
+            style="background-color: black"
+          ></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span
+            class="carousel-control-next-icon"
+            style="background-color: black"
+          ></span>
+        </a>
+      </div>
+      <br /><br />
+    </div>
+    <div class="footer-container" style="width: 100%; height: 400px">
+      <footer>
+        <div class="row">
+          <div id="one">
+            <div id="footer-sections">
+              <p>Contact Us</p>
+              <h6>P.O.: No. 21, Malcom Rd, Colombo, Sri Lanka.</h6>
+              <h6>Tel: 0987654321</h6>
+              <h6>www.godohnuts.com</h6>
+              <h6>@Colombo, SL</h6>
+            </div>
+          </div>
+          <div id="two">
+            <div id="footer-sections">
+              <p>Like Share Subscribe</p>
+
+              <i
+                id="socialmediaicon"
+                class="fa fa-facebook-square"
+                style="font-size: 48px"
+                ><a
+                  href="https://www.w3schools.com/bootstrap4/bootstrap_images.asp"
+                ></a
+              ></i>
+              <i
+                id="socialmediaicon"
+                class="fa fa-instagram"
+                href="https://www.instagram.com/"
+                style="font-size: 48px"
+              ></i>
+              <i
+                id="socialmediaicon"
+                class="fa fa-youtube-play"
+                href="https://www.youtube.com/"
+                style="font-size: 48px"
+              ></i>
+            </div>
+          </div>
+          <div id="three">
+            <div id="footer-sections">
+              <p>We are Go Doh-nuts!</p>
+              <img
+                class="mx-auto d-block"
+                id="logo-footer"
+                src="/images/7.png"
+                alt="logo-footer"
+              />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
